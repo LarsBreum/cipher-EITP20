@@ -5,7 +5,7 @@ from collections import defaultdict
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 substitution = "whitewhitewhitewhite"
 
-eng_freq_list = ["e", "a", "o","t", "i", "n", "h",]
+eng_freq_list = ["e", "t", "a","o", "i", "n", "s",]
 
 substitution_two = "cbhdsfgptjklmetpqsstuvwxyz"
 
@@ -81,3 +81,4 @@ print(frequency_triples(ciphertext))
 
 
 print(decode(ciphertext, alphabet, substitution))
+
